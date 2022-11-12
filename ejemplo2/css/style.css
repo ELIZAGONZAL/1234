@@ -1,0 +1,27 @@
+
+
+.box {
+    background-color: aquamarine;
+    display: flex;
+    /*flex- direction: row; */ /*row, row-reverse,column column-reverse*/
+    /* flex-wrap: wrap; */
+
+    flex-flow: row reverse wrap;
+    /*align-itens: center ; *//* flex-start, flex-end, center */
+    justify-content:space-evenly;
+}
+/*ESTILOS PARA LOS HIJOS -ETIQUETA DIV */
+.box div{
+    background-color: aliceblue;
+    width:70vh;
+    border:2px solid black;
+
+}
+
+.box div img{
+    width:50%
+}
+
+main´{
+    heidth:50vh
+}
