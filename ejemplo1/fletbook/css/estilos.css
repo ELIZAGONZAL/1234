@@ -1,0 +1,39 @@
+/* SELECTOR UNIVERSAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: aqua;
+    width: 80%;
+    margin: 0 auto;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card div img{
+    width: 100%;
+}
+
+.img1{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+@media screen and (min-width: 700px) {
+    body {
+      background-color: blue;
+    }
+
+    .card{
+       
+        flex-wrap: wrap;
+        
+    }
+    }
